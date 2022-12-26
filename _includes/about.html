@@ -1,0 +1,19 @@
+<!-- About -->
+<section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | default: "About Us" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].about.text | markdownify  }}</h3>
+      </div>
+    </div>
+    <div id="ceo">
+      <div class="col-lg-9 mx-auto">
+        <div class="picture"><img class="mx-auto rounded-circle" src="{{ site.data.sitetext[site.locale].about.image }}" alt=""><div class="name">{{ site.data.sitetext[site.locale].about.name | markdownify }}</div></div>
+        <div class="large text-muted text-center">{{ site.data.sitetext[site.locale].about.body | markdownify }}</div>
+  
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End About -->

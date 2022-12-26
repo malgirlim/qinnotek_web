@@ -1,0 +1,175 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: ＂더 스마트한 가치의 창조＂
+    text: 큐이노텍이 함께합니다
+    button: 더 알아보기
+    buttonlink: "#services"
+
+  services:
+    title: "기술소개"
+    text: "Introduce"
+    section: services
+    list:
+      - title: "스마트 공장 자동화 시스템"
+        desc: "데이터 기반의 공정 관리 인프라 구축<br/>품질 신뢰성 향상"
+        icon: fas fa-industry #find more at https://fontawesome.com/icons
+      - title: "MES 개발/구축 솔루션"
+        desc: "생산성과 수익성 향상을 위한 전산 관리 시스템<br/>신규 도입 설비 스마트화 접목"
+        icon: fas fa-desktop
+      - title: "모바일 재고관리 시스템"
+        desc: "모바일을 이용한 체계적인 재고관리 시스템<br/>실시간 관리 시스템 도입으로 재고 비용 절감 "
+        icon: fas fa-mobile-alt
+
+  portfolio:
+    title: "구축 사례"
+    text: "Examples"
+    section: portfolio
+    closebutton: "닫기"
+
+  timeline:
+    title: "연혁"
+    text: "History"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "정수기 Hose 조립 양산"
+        year: "2021.05"
+        desc: ""
+        image: assets/img/timeline/2021_05.png
+        alt:
+      - title: "청호시스템<br/>가전용 Roller 조립 양산"
+        year: "2020.05"
+        desc: ""
+        image: assets/img/timeline/2020_05.png
+        alt:
+      - title: "기업부설연구소 설립<br/>(큐이노텍)"
+        year: "2020.03"
+        desc: ""
+        image: assets/img/timeline/2020_03.png
+        alt:
+      - title: "자회사<br/>주)큐이노텍 설립"
+        year: "2018.12"
+        desc: "스마트 팩토리<br/>공장 자동화 설비 설계/제작"
+        image: assets/img/timeline/2018_12.png
+        alt: image alt text
+      - title: "로엠기연<br/>천안사업장 설립"
+        year: "2011.11"
+        desc: ""
+        image: assets/img/timeline/2011_11.png
+        alt:
+        # you can enforce the alignment
+        #align: right
+        
+    #end: "" ; 연혁 시작부분
+
+  about:
+    title: "회사 소개"
+    text: "**\"융합된 자동화 기술로 스마트한 가치를 창조시키다.**\""
+    image: assets/img/about/ceo.png
+    name: "**(주)큐이노텍<br/>대표이사 최순우**"
+    body: "데이터 기반의 MES는 향후 정확한 데이터 분석에 기반한 예측 생산과 관리에 도달하기 위한 첫 단추입니다.<br/>가장 먼저 넘어야 하는 허들은 스마트공장의 인식전환입니다.<br/><br/>생산과 경영 시스템에 단순히 편의성을 보태는 것이 아니라 **\"새로운 가치\"**를 만들어가는 근본적인 변화입니다.<br/>무엇보다 공장 스마트화는 공정의 효율과 생산성, 품질 수준을 높이는 실절적이고 장기적인 대안이어야 합니다.<br/><br/>**\"그저 보고용으로 그치지 않고, 데이터를 분석해나가며 디지털전환으로 이끌어가야합니다.\"**<br/><br/>정확하고 효율적인 관리를 경험하여 스마트공장의 데이터 분석과 활용의 모범이 되겠습니다."
+    section: about
+
+  result:
+    title: "구축 실적"
+    text: "Results"
+    body: " 2019<br/>
+            상생형 스마트공장 구축 사업 **<< 자동 치수검사 및 집하장치 >>** - 서광테크<br/><br/>
+
+            2020<br/>
+            스마트공장 구축 사업 (기초1) **<< 스마트 열성형 프레스장치 >>** - 호안<br/>
+            스마트공장 구축 사업 (기초1) **<< 스마트 리크시험기 >>** – 엔티엠<br/>
+            스마트공장 구축 사업 (기초1) **<< 스마트 단차 측정장치 >>** - 정보테크<br/><br/>
+
+            2021<br/>
+            스마트공장 구축 사업 (기초2) **<< 설비 가동 정보 모니터링 및  재고 관리 시스템 >>** - 호안<br/>
+            스마트공장 구축 사업 (고도화1) **<< 자동 조립 라인 설비 예방 보전 시스템 >>** - 엔티엠<br/>
+            상생형 스마트공장 구축 사업  **<< 스마트 웨이퍼 케리어 두께 검사장치 >>** - 엔티에스엘<br/>
+            스마트 공방 구축 사업 **<< 롤러 자동 조립 검사 장치 설비 모니터링 시스템 >>** - 로엠기연"
+    section: result
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "KOSMO"
+        url: https://www.smart-factory.kr
+        logo: assets/img/clients/kosmo.png
+      - title: "FOMs"
+        url: http://www.df.re.kr
+        logo: assets/img/clients/foms.png
+      - title: "Weintek"
+        url: https://www.weintek.com
+        logo: assets/img/clients/weintek.png
+      - title: "Simbiz"
+        url: https://www.simbizkorea.com
+        logo: assets/img/clients/simbiz.png
+
+  team:
+    title: "고객지원"
+    text: "Support"
+    subtext:
+    section: team
+    people:
+      - name: "대표 전화"
+        role: "Tel. 041-553-1569<br/>Fax. 041-553-1570<br/>E-mail. qinnotek@gmail.com"
+        image: assets/img/team/company.png
+      - name: "기술 지원"
+        role: "윤호상 차장<br/>Tel. 041-553-1569<br/>E-mail. qinnotek@gmail.com"
+        image: assets/img/team/tech.png
+      - name: "행정 지원"
+        role: "김예란 주임<br/>Tel. 041-553-1569<br/>E-mail. qinnotek@gmail.com"
+        image: assets/img/team/admin.png
+
+  location:
+    title: "위치"
+    subtext: "Location"
+    image: assets/img/location/map.png
+    address: "충남 천안시 서북구 직산읍 4산단5길 28, 2층 큐이노텍 (신갈리 248)"
+    url: https://naver.me/GZjDOksB
+    section: location
+
+  contact:
+    title: "이메일 문의"
+    subtitle: "Contact"
+    text: "궁금하신 점이나 요구사항을 보내주시면 담당자 확인 후 답변드리겠습니다."
+    section: contact
+    name: "성함*"
+    name-validation: "성함을 입력해 주세요."
+    email: "이메일*"
+    email-validation: "이메일 주소를 입력해 주세요."
+    phone: "연락처*"
+    phone-validation: "연락처를 입력해 주세요."
+    message: "내용*"
+    message-validation: "문의사항을 입력해 주세요."
+    subject: "Contact Form Submission"
+    submit: "이메일 보내기"
+
+  footer:
+    legal: "개인정보 보호정책"
+    social:
+      # - url: https://twitter.com
+      #   icon: "fab fa-twitter"
+      # - url: https://facebook.com
+      #   icon: "fab fa-facebook-f"
+      # - url: https://linkedin.com
+      #   icon: "fab fa-linkedin-in"
+      # - url: https://github.com/raviriley/agency-jekyll-theme
+      #   icon: "fab fa-github"
+      # - url: https://instagram.com
+      #   icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
