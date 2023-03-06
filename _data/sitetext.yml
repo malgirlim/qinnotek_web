@@ -21,15 +21,25 @@ en: &DEFAULT_EN
     text: "Introduce"
     section: services
     list:
-      - title: "스마트 공장 자동화 시스템"
-        desc: "데이터 기반의 공정 관리 인프라 구축<br/>품질 신뢰성 향상"
-        icon: fas fa-industry #find more at https://fontawesome.com/icons
-      - title: "MES 개발/구축 솔루션"
-        desc: "생산성과 수익성 향상을 위한 전산 관리 시스템<br/>신규 도입 설비 스마트화 접목"
+      - title: "데이터 수집 (CMT)"
+        desc: "데이터 자동 수집<br/>(Database 개발, Data 수집 시스템 개발)"
+        icon: fas fa-database #find more at https://fontawesome.com/icons
+      - title: "데이터 관리 (Q-MES)"
+        desc: "스마트공장 운영 시스템 개발<br/>(Q-MES 프로그램 개발)"
         icon: fas fa-desktop
-      - title: "모바일 재고관리 시스템"
-        desc: "모바일을 이용한 체계적인 재고관리 시스템<br/>실시간 관리 시스템 도입으로 재고 비용 절감 "
-        icon: fas fa-mobile-alt
+      - title: "데이터 분석 (FOMs)"
+        desc: "FOMs 데이터 분석 시스템"
+        icon: fas fa-chart-bar
+    list2:
+      - title: "3D 자동화 설계 (IronCAD)"
+        desc: "제조 공정에 필요한 부품 및 제품 설계<br/>생산성 향상과 정확도 개선"
+        icon: fas fa-drafting-compass #find more at https://fontawesome.com/icons
+      - title: "자동 제어설계 (로봇, PLC)"
+        desc: "로봇과 PLC를 사용한 공정 자동화 설계<br/>생산성 향상 및 다운타임 최소화"
+        icon: fas fa-server
+      - title: "시스템 제작 (MCT, CNC)"
+        desc: "정밀 설계 기반의 시스템 제작"
+        icon: fas fa-screwdriver
 
   portfolio:
     title: "구축 사례"
@@ -85,20 +95,58 @@ en: &DEFAULT_EN
   result:
     title: "구축 실적"
     text: "Results"
-    body: " 2019<br/>
-            상생형 스마트공장 구축 사업 **<< 자동 치수검사 및 집하장치 >>** - 서광테크<br/><br/>
+    body: " 2023(진행중)<br/>
+            스마트 공장 구축 사업 (고도화1) **<< 설비예방보전 >>** - 호안<br/>
+            스마트 공장 구축 사업 (고도화1) **<< 설비예방보전 >>** - 포리폼<br/>
+            스마트공장 구축 사업 (기초1) **<< 고무원료배합시스템 >>** - 케이씨티<br/>
+            스마트공장 구축 사업 (기초1) **<< 사출 인써트 압입공정 개선  >>** - 유영하이텍<br/>
+            스마트공장 구축 사업 (기초1) **<< 외관검사 비전 시스템  >>** - 제이에스케이<br/>
+            스마트공장 구축 사업 (기초1) **<< 인쇄공정생산관리시스템 >>** - 은성프린터스<br/>
+            스마트공장 구축 사업 (기초1) **<< 사출기 투입 공정 개선 및 생산관리시스템 >>** - 협성<br/>
+            스마트공장 구축 사업 (기초1) **<< 사출기 풀프루프시스템 >>** - 협성테크<br/>
+            스마트공장 구축 사업 (기초1) **<< 수출입 관리 및 재고 관리 시스템 >>** - 팬케미컬<br/>
+            삼성 상생형 스마트공장 구축 사업 유형 B **<< 김생산 생산관리시스템 >>** - 해담솔<br/>
+            삼성 상생형 스마트공장 구축 사업 유형 C **<< 재고관리 시스템 >>** - 한국나가노<br/><br/>
 
-            2020<br/>
-            스마트공장 구축 사업 (기초1) **<< 스마트 열성형 프레스장치 >>** - 호안<br/>
-            스마트공장 구축 사업 (기초1) **<< 스마트 리크시험기 >>** – 엔티엠<br/>
-            스마트공장 구축 사업 (기초1) **<< 스마트 단차 측정장치 >>** - 정보테크<br/><br/>
+            2022<br/>
+            철도 공사 상생형 스마트 공장 구축 사업 기초 **<< 용접 모니터링 시스템 >>** - 동호기전<br/>
+            철도 공사 상생형 스마트 공장 구축 사업 기초 **<< 축사정화장치 원격제어 시스템 >>** - 필텍산업<br/>
+            스마트 공방 구축 사업 **<< 화학원료 자동 배합 및 모니터링 시스템 >>** - 동구산업<br/>
+            스마트 공방 구축 사업 **<< 상토 배합 관리 및 모니터링 시스템 >>** - 코리아피트<br/>
+            스마트 공방 구축 사업 **<< 상패 제작 공정 개선 및 재고관리 시스템 >>** - 우림크리스탈<br/>
+            스마트 공방 구축 사업 **<< 자동 합지 투입 공정 개선 및 모니터링 시스템 >>** - 해원<br/>
+            스마트 공방 구축 사업 **<< 목재 샌딩 공정 개선 및 재고관리 시스템 >>** - 컴퍼스<br/>
+            스마트 공방 구축 사업 **<< 목재 가공 공정 개선 및 재고관리 시스템 >>** - 진영<br/>
+            스마트 공방 구축 사업 **<< 우산 제조 공정 개선 및 재고관리 시스템 >>** - 일경패밀리<br/>
+            스마트 공방 구축 사업 **<< 치위생품 포장 공정 개선 및 재고관리 시스템 >>** - 아미덴<br/>
+            스마트 공방 구축 사업 **<< 냉장고 힌지 검사 공정 개선 및 검사 모니터링 시스템 >>** - 영신테크<br/>
+            스마트 공방 구축 사업 **<< 측면 가공 공정 개선 및 재고관리 시스템 >>** - 에스지테크<br/>
+            스마트 공방 구축 사업 **<< 냉장고 힌지 리벳팅 공정 개선 및 모니터링 시스템 >>** - 아이원이노텍<br/><br/>
 
             2021<br/>
             스마트공장 구축 사업 (기초2) **<< 설비 가동 정보 모니터링 및  재고 관리 시스템 >>** - 호안<br/>
             스마트공장 구축 사업 (고도화1) **<< 자동 조립 라인 설비 예방 보전 시스템 >>** - 엔티엠<br/>
             상생형 스마트공장 구축 사업  **<< 스마트 웨이퍼 케리어 두께 검사장치 >>** - 엔티에스엘<br/>
-            스마트 공방 구축 사업 **<< 롤러 자동 조립 검사 장치 설비 모니터링 시스템 >>** - 로엠기연"
+            스마트 공방 구축 사업 **<< 롤러 자동 조립 검사 장치 설비 모니터링 시스템 >>** - 로엠기연
+
+            2020<br/>
+            스마트공장 구축 사업 (기초1) **<< 스마트 열성형 프레스장치 >>** - 호안<br/>
+            스마트공장 구축 사업 (기초1) **<< 스마트 리크시험기 >>** - 엔티엠<br/>
+            스마트공장 구축 사업 (기초1) **<< 스마트 단차 측정장치 >>** - 정보테크<br/><br/>
+
+            2019<br/>
+            상생형 스마트공장 구축 사업 **<< 자동 치수검사 및 집하장치 >>** - 서광테크<br/><br/>"
     section: result
+
+  pr:
+    title: "홍보 자료"
+    text: "PR"
+    body: "<div class='text-center'><img width='500px' src='assets/img/pr/brochure.png'> 
+            <br/><a href='assets/file/2023_Brochure(qinnotek)-A.pdf' target='_blank'>브로슈어 다운로드(PDF)</a><br/><br/></div>
+            <div class='text-center mt-10'><img width='500px' src='assets/img/pr/inquiry.png'> 
+            <br/>도입 희망기업 질의서 다운로드<br/><a href='assets/file/inquiry.hwp' target='_blank'>한글(.hwp)</a><br/>
+            <a href='assets/file/inquiry.docx' target='_blank'>MS Word(.docx)</a></div>"
+    section: pr
 
   clients:
     section: clients
@@ -124,14 +172,14 @@ en: &DEFAULT_EN
     subtext:
     section: team
     people:
+      - name: ""
+        role: ""
+        image: assets/img/team/company.png
       - name: "대표 전화"
         role: "Tel. 041-553-1569<br/>Fax. 041-553-1570<br/>E-mail. qinnotek@gmail.com"
-        image: assets/img/team/company.png
-      - name: "기술 지원"
-        role: "윤호상 차장<br/>Tel. 041-553-1569<br/>E-mail. qinnotek@gmail.com"
         image: assets/img/team/tech.png
-      - name: "행정 지원"
-        role: "김예란 주임<br/>Tel. 041-553-1569<br/>E-mail. qinnotek@gmail.com"
+      - name: ""
+        role: ""
         image: assets/img/team/admin.png
 
   location:

@@ -21,6 +21,8 @@ en: &DEFAULT_EN
       section: result
     - title: "구축사례"
       section: portfolio
+    - title: "홍보자료"
+      section: pr
     - title: "고객지원"
       section: team
     - title: "위치"
